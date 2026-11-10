@@ -1,0 +1,20 @@
+cattus-study-verify
+Copyright 2026 OneOrThree
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The verification code was extracted from Cattus, an app developed by OneOrThree, and
+generalized for reuse. Account, server, reward and session code was removed.
+
+This package bundles two TensorFlow Lite models from Google MediaPipe, licensed under the
+Apache License, Version 2.0 (assets/MODELS.md lists the source files and their SHA-256
+hashes):
+
+  - palm_detection_lite.tflite
+    Google MediaPipe Palm Detection Lite
+    https://storage.googleapis.com/mediapipe-assets/palm_detection_lite.tflite
+  - efficientdet_lite0_int8.tflite
+    Google MediaPipe EfficientDet-Lite0 int8 v1
+    https://storage.googleapis.com/mediapipe-models/object_detector/efficientdet_lite0/int8/1/efficientdet_lite0.tflite
+
+Source project: https://github.com/google-ai-edge/mediapipe
