@@ -1,0 +1,12 @@
+__mocks__
+__tests__
+*.test.ts
+*.test.tsx
+
+/babel.config.js
+/eslint.config.cjs
+/.prettierrc
+/tsconfig.json
+/tsconfig.build.json
+/docs/
+/example/
